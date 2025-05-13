@@ -11,6 +11,5 @@ public class App {
 
         System.out.println("The next number for the number " + a +  " is " + b +".");
         System.out.println("The previous number for the number " + a + " is "+ c +".");
-
     }
 }
