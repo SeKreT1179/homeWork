@@ -8,8 +8,7 @@ public class App3060 {
 
         while (a < n) {
             a = a * 2;
-
-            }
+        }
         if (a == n) {
             System.out.println("YES");
         } else {
