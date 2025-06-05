@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class App344 {
+public class App334 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int a = scanner.nextInt();
@@ -15,3 +15,4 @@ public class App344 {
         }
     }
 }
+
