@@ -4,19 +4,18 @@ import java.util.Scanner;
 
 public class App {
     public static void main(String[] args) {
-        task task1 = new task(
+        Task task1 = new Task(
                 "дз по java",
                 "ну вроде бы как нормально",
                 "15.07.2025"
-        );task task2 = new task(
+        );
+        Task task2 = new Task(
                 "поменять лампочку",
                 "главное что бы таком не ударило",
                 "17.07.2025"
         );
 
-
-        task[] task = new task[]{task1, task2};
-
+        Task[] task = new Task[]{task1, task2};
 
         System.out.println("у вас есть готовые задачи: ");
         System.out.println("Дз по java ");

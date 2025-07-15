@@ -1,14 +1,12 @@
 package ru.example.edu;
 
-public class task {
+public class Task {
     private String name;
     private String description;
     private String date;
-
-
-
+    
     //TODO: alt+insert
-    public task(String name, String description, String date) {
+    public Task(String name, String description, String date) {
         this.name = name;
         this.description = description;
         this.date = date;
