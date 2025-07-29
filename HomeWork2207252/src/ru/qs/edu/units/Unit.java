@@ -1,6 +1,6 @@
 package ru.qs.edu.units;
 
-public class Unit {
+public abstract class Unit {
     protected String name;
     protected int hp;
 
@@ -18,4 +18,7 @@ public class Unit {
     public int getHp() {
         return hp;
     }
+
+    public abstract void getDmg(int getDmg);
+    public abstract void attack(Unit unit);
 }
