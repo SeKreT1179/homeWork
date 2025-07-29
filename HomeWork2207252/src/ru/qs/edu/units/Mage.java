@@ -14,29 +14,18 @@ public class Mage extends Unit {
         System.out.println("Mp : " + mp);
     }
 
-    public void getDmg(int dmg) {
-        hp -= dmg;
+    @Override
+    public void getDmg(int getDmg) {
+        hp -= getDmg;
     }
 
-    public void attack(Mage mage) {
+    @Override
+    public void attack(Unit unit) {
         if (mp > 0) {
-            mage.getDmg(20);
+            unit.getDmg(20);
             mp -= 5;
         } else {
-            mage.getDmg(5);
+            unit.getDmg(5);
         }
-    }
-
-    public void attack(Warrior warrior) {
-        if (mp > 0) {
-            warrior.getDmg(20);
-            mp -= 5;
-        } else {
-            warrior.getDmg(5);
-        }
-    }
-
-    public void attack(Amal amal) {
-        amal.getDmg(2);
     }
 }
