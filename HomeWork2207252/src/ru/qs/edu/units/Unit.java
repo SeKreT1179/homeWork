@@ -3,6 +3,7 @@ package ru.qs.edu.units;
 public abstract class Unit {
     protected String name;
     protected int hp;
+    //boolean alife;
 
     public Unit(String name, int hp) {
         this.name = name;
